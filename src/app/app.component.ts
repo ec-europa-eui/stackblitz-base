@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import {
   AfterViewInit,
   ChangeDetectorRef,
@@ -19,10 +20,11 @@ export class AppComponent implements AfterViewInit {
   @ViewChild('test', { static: false, read: HTMLDivElement })
   test: HTMLDivElement;
 
-  constructor(private cd: ChangeDetectorRef) {}
+  constructor(private cd: ChangeDetectorRef, private http: HttpClient) {}
 
   ngAfterViewInit(): void {
     console.log(this.test);
+    this.http.get('i18n-eui/en.json').subscribe((d) => console.log(d));
   }
 
   toggleLoading() {
