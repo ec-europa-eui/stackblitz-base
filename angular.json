@@ -33,7 +33,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "./node_modules/@eui/styles/src/styles/eui.scss"
+              "./node_modules/@eui/styles/dist/styles/eui.css"
             ],
             "scripts": []
           },
