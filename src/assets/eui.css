@@ -851,13 +851,13 @@ fieldset {
   font-family: eui-icons;
   font-style: normal;
   font-weight: 400;
-  src: url(/assets/fonts/eui-icons/eui-icons.eot);
-  src: url(/assets/fonts/eui-icons/eui-icons.eot#iefix)
+  src: url(https://unpkg.com/@eui/styles-base@14.0.3/dist/assets/fonts/eui-icons/eui-icons.eot);
+  src: url(https://unpkg.com/@eui/styles-base@14.0.3/dist/assets/fonts/eui-icons/eui-icons.eot#iefix)
       format('embedded-opentype'),
-    url(/assets/fonts/eui-icons/eui-icons.woff2?v=2.5) format('woff2'),
-    url(/assets/fonts/eui-icons/eui-icons.woff?v=2.5) format('woff'),
-    url(/assets/fonts/eui-icons/eui-icons.ttf?v=2.5) format('truetype'),
-    url(/assets/fonts/eui-icons/eui-icons.svg#eui-icons) format('svg');
+    url(https://unpkg.com/@eui/styles-base@14.0.3/dist/assets/fonts/eui-icons/eui-icons.woff2?v=2.5) format('woff2'),
+    url(https://unpkg.com/@eui/styles-base@14.0.3/dist/assets/fonts/eui-icons/eui-icons.woff?v=2.5) format('woff'),
+    url(https://unpkg.com/@eui/styles-base@14.0.3/dist/assets/fonts/eui-icons/eui-icons.ttf?v=2.5) format('truetype'),
+    url(https://unpkg.com/@eui/styles-base@14.0.3/dist/assets/fonts/eui-icons/eui-icons.svg#eui-icons) format('svg');
 }
 .eui-icon,
 .ux-icon {
