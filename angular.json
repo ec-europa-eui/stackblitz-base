@@ -31,10 +31,7 @@
                 "output": "src/assets"
               }
             ],
-            "styles": [
-              "src/styles.css",
-              "./node_modules/@eui/styles/dist/styles/eui.css"
-            ],
+            "styles": ["src/styles.css"],
             "scripts": []
           },
           "configurations": {
