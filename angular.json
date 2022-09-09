@@ -22,7 +22,7 @@
               "src/assets",
               {
                 "glob": "**/*",
-                "input": "./node_modules/@eui/styles-base/src/assets/",
+                "input": "./node_modules/@eui/styles-base/dist/assets/",
                 "output": "src/assets"
               },
               {
