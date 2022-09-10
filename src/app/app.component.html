@@ -1,141 +1,401 @@
+<h6 class="section-title eui-u-mt-m">Default</h6>
+<button euiButton>Default</button>&nbsp;
+
+<h6 class="section-title eui-u-mt-m">Colors</h6>
+<h6 class="section-title eui-u-mt-m">Semantic color input</h6>
+<p>
+  Using one of the following input option : <code>euiPrimary</code> |
+  <code>euiSecondary</code> | <code>euiInfo</code> | <code>euiSuccess</code> |
+  <code>euiWarning</code> | <code>euiDanger</code> | <code>euiAccent</code>
+</p>
+
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiPrimary>euiPrimary</button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiSecondary>
+    euiSecondary
+  </button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiInfo>euiInfo</button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiSuccess>euiSuccess</button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiWarning>euiWarning</button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiDanger>euiDanger</button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiAccent>euiAccent</button>
+</div>
+
+<h6 class="section-title">Explicit variant color input</h6>
+<p>
+  Using the <code>euiVariant</code> option with one of : primary, secondary,
+  info, success, warning, danger, accent
+</p>
+
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiVariant="primary">
+    euiVariant="primary"
+  </button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiVariant="secondary">
+    euiVariant="secondary"
+  </button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiVariant="info">
+    euiVariant="info"
+  </button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiVariant="success">
+    euiVariant="success"
+  </button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiVariant="warning">
+    euiVariant="warning"
+  </button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiVariant="danger">
+    euiVariant="danger"
+  </button>
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiVariant="accent">
+    euiVariant="accent"
+  </button>
+</div>
+
+<h6 class="section-title eui-u-mt-m">Basic</h6>
 <h6 class="section-title eui-u-mt-m">Flat styled buttons</h6>
 <p>Using the <code>euiBasicButton</code> input option</p>
 
-<div #test class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
-  <button euiButton class="eui-u-mr-s eui-u-mb-s" [euiBasicButton]="true">
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiBasicButton>
     Default
   </button>
-  <button
-    euiButton
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiBasicButton]="true"
-    [euiPrimary]="true"
-  >
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiBasicButton euiPrimary>
     Primary
   </button>
-  <button
-    euiButton
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiBasicButton]="true"
-    [euiSecondary]="true"
-  >
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiBasicButton euiSecondary>
     Secondary
   </button>
-  <button
-    euiButton
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiBasicButton]="true"
-    [euiInfo]="true"
-  >
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiBasicButton euiInfo>
     Info
   </button>
-  <button
-    euiButton
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiBasicButton]="true"
-    [euiSuccess]="true"
-  >
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiBasicButton euiSuccess>
     Success
   </button>
-  <button
-    euiButton
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiBasicButton]="true"
-    [euiWarning]="true"
-  >
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiBasicButton euiWarning>
     Warning
   </button>
-  <button
-    euiButton
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiBasicButton]="true"
-    [euiDanger]="true"
-  >
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiBasicButton euiDanger>
     Danger
   </button>
-  <button
-    euiButton
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiBasicButton]="true"
-    [euiAccent]="true"
-  >
+  <button euiButton class="eui-u-mr-s eui-u-mb-s" euiBasicButton euiAccent>
     Accent
   </button>
 </div>
 
+<h6 class="section-title eui-u-mt-m">Outline</h6>
 <h6 class="section-title eui-u-mt-m">Outlined styled buttons</h6>
 <p>Using the <code>euiOutline</code> input option</p>
 
 <div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
-  <button euiButton [euiOutline]="true" class="eui-u-mr-s eui-u-mb-s">
-    Default
-  </button>
-  <button
-    euiButton
-    [euiOutline]="true"
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiPrimary]="true"
-  >
+  <button euiButton euiOutline class="eui-u-mr-s eui-u-mb-s">Default</button>
+  <button euiButton euiOutline class="eui-u-mr-s eui-u-mb-s" euiPrimary>
     Primary
   </button>
-  <button
-    euiButton
-    [euiOutline]="true"
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiSecondary]="true"
-  >
+  <button euiButton euiOutline class="eui-u-mr-s eui-u-mb-s" euiSecondary>
     Secondary
   </button>
-  <button
-    euiButton
-    [euiOutline]="true"
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiInfo]="true"
-  >
+  <button euiButton euiOutline class="eui-u-mr-s eui-u-mb-s" euiInfo>
     Info
   </button>
-  <button
-    euiButton
-    [euiOutline]="true"
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiSuccess]="true"
-  >
+  <button euiButton euiOutline class="eui-u-mr-s eui-u-mb-s" euiSuccess>
     Success
   </button>
-  <button
-    euiButton
-    [euiOutline]="true"
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiWarning]="true"
-  >
+  <button euiButton euiOutline class="eui-u-mr-s eui-u-mb-s" euiWarning>
     Warning
   </button>
-  <button
-    euiButton
-    [euiOutline]="true"
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiDanger]="true"
-  >
+  <button euiButton euiOutline class="eui-u-mr-s eui-u-mb-s" euiDanger>
     Danger
   </button>
-  <button
-    euiButton
-    [euiOutline]="true"
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiAccent]="true"
-  >
+  <button euiButton euiOutline class="eui-u-mr-s eui-u-mb-s" euiAccent>
     Accent
   </button>
 </div>
 
+<h6 class="section-title eui-u-mt-m">Icon Button</h6>
+<h6 class="section-title eui-u-mt-m">DEFAULT</h6>
+<p>Using the <code>euiIconButton</code> input option</p>
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+  <button euiButton euiIconButton class="eui-u-mr-s eui-u-mb-s">
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button euiButton euiIconButton class="eui-u-mr-s eui-u-mb-s" euiPrimary>
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button euiButton euiIconButton class="eui-u-mr-s eui-u-mb-s" euiSecondary>
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button euiButton euiIconButton class="eui-u-mr-s eui-u-mb-s" euiInfo>
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button euiButton euiIconButton class="eui-u-mr-s eui-u-mb-s" euiSuccess>
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button euiButton euiIconButton class="eui-u-mr-s eui-u-mb-s" euiWarning>
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button euiButton euiIconButton class="eui-u-mr-s eui-u-mb-s" euiDanger>
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button euiButton euiIconButton class="eui-u-mr-s eui-u-mb-s" euiAccent>
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+</div>
+
+<h6 class="section-title eui-u-mt-m">BASIC</h6>
+<p>Using the <code>euiIconButton euiBasicButton</code> input options</p>
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+  <button euiButton euiIconButton euiBasicButton class="eui-u-mr-s eui-u-mb-s">
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiBasicButton
+    class="eui-u-mr-s eui-u-mb-s"
+    euiPrimary
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiBasicButton
+    class="eui-u-mr-s eui-u-mb-s"
+    euiSecondary
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiBasicButton
+    class="eui-u-mr-s eui-u-mb-s"
+    euiInfo
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiBasicButton
+    class="eui-u-mr-s eui-u-mb-s"
+    euiSuccess
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiBasicButton
+    class="eui-u-mr-s eui-u-mb-s"
+    euiWarning
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiBasicButton
+    class="eui-u-mr-s eui-u-mb-s"
+    euiDanger
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiBasicButton
+    class="eui-u-mr-s eui-u-mb-s"
+    euiAccent
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+</div>
+
+<h6 class="section-title eui-u-mt-m">OUTLINE</h6>
+<p>Using the <code>euiIconButton euiOutline</code> input options</p>
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+  <button euiButton euiIconButton euiOutline class="eui-u-mr-s eui-u-mb-s">
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiOutline
+    class="eui-u-mr-s eui-u-mb-s"
+    euiPrimary
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiOutline
+    class="eui-u-mr-s eui-u-mb-s"
+    euiSecondary
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiOutline
+    class="eui-u-mr-s eui-u-mb-s"
+    euiInfo
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiOutline
+    class="eui-u-mr-s eui-u-mb-s"
+    euiSuccess
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiOutline
+    class="eui-u-mr-s eui-u-mb-s"
+    euiWarning
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiOutline
+    class="eui-u-mr-s eui-u-mb-s"
+    euiDanger
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+  <button
+    euiButton
+    euiIconButton
+    euiOutline
+    class="eui-u-mr-s eui-u-mb-s"
+    euiAccent
+  >
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
+</div>
+
+<h6 class="section-title eui-u-mt-m">FAB (Floating Action Buttton)</h6>
 <h6 class="section-title eui-u-mt-m">DEFAULT</h6>
 <p>Using the <code>euiRounded euiIconButton</code> input options</p>
 <div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+  <button euiButton euiRounded euiIconButton class="eui-u-mr-s eui-u-mb-s">
+    <span
+      euiIcon
+      iconClass="eui-icon eui-icon-bell"
+      aria-label="Bell Icon"
+    ></span>
+  </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
+    euiRounded
+    euiIconButton
     class="eui-u-mr-s eui-u-mb-s"
+    euiPrimary
   >
     <span
       euiIcon
@@ -145,10 +405,10 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
+    euiRounded
+    euiIconButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiPrimary]="true"
+    euiSecondary
   >
     <span
       euiIcon
@@ -158,10 +418,10 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
+    euiRounded
+    euiIconButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiSecondary]="true"
+    euiInfo
   >
     <span
       euiIcon
@@ -171,10 +431,10 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
+    euiRounded
+    euiIconButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiInfo]="true"
+    euiSuccess
   >
     <span
       euiIcon
@@ -184,10 +444,10 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
+    euiRounded
+    euiIconButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiSuccess]="true"
+    euiWarning
   >
     <span
       euiIcon
@@ -197,10 +457,10 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
+    euiRounded
+    euiIconButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiWarning]="true"
+    euiDanger
   >
     <span
       euiIcon
@@ -210,23 +470,10 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
+    euiRounded
+    euiIconButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiDanger]="true"
-  >
-    <span
-      euiIcon
-      iconClass="eui-icon eui-icon-bell"
-      aria-label="Bell Icon"
-    ></span>
-  </button>
-  <button
-    euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    class="eui-u-mr-s eui-u-mb-s"
-    [euiAccent]="true"
+    euiAccent
   >
     <span
       euiIcon
@@ -243,9 +490,9 @@
 <div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiBasicButton]="true"
+    euiRounded
+    euiIconButton
+    euiBasicButton
     class="eui-u-mr-s eui-u-mb-s"
   >
     <span
@@ -256,11 +503,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiBasicButton]="true"
+    euiRounded
+    euiIconButton
+    euiBasicButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiPrimary]="true"
+    euiPrimary
   >
     <span
       euiIcon
@@ -270,11 +517,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiBasicButton]="true"
+    euiRounded
+    euiIconButton
+    euiBasicButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiSecondary]="true"
+    euiSecondary
   >
     <span
       euiIcon
@@ -284,11 +531,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiBasicButton]="true"
+    euiRounded
+    euiIconButton
+    euiBasicButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiInfo]="true"
+    euiInfo
   >
     <span
       euiIcon
@@ -298,11 +545,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiBasicButton]="true"
+    euiRounded
+    euiIconButton
+    euiBasicButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiSuccess]="true"
+    euiSuccess
   >
     <span
       euiIcon
@@ -312,11 +559,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiBasicButton]="true"
+    euiRounded
+    euiIconButton
+    euiBasicButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiWarning]="true"
+    euiWarning
   >
     <span
       euiIcon
@@ -326,11 +573,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiBasicButton]="true"
+    euiRounded
+    euiIconButton
+    euiBasicButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiDanger]="true"
+    euiDanger
   >
     <span
       euiIcon
@@ -340,11 +587,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiBasicButton]="true"
+    euiRounded
+    euiIconButton
+    euiBasicButton
     class="eui-u-mr-s eui-u-mb-s"
-    [euiAccent]="true"
+    euiAccent
   >
     <span
       euiIcon
@@ -359,9 +606,9 @@
 <div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiOutline]="true"
+    euiRounded
+    euiIconButton
+    euiOutline
     class="eui-u-mr-s eui-u-mb-s"
   >
     <span
@@ -372,11 +619,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiOutline]="true"
+    euiRounded
+    euiIconButton
+    euiOutline
     class="eui-u-mr-s eui-u-mb-s"
-    [euiPrimary]="true"
+    euiPrimary
   >
     <span
       euiIcon
@@ -386,11 +633,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiOutline]="true"
+    euiRounded
+    euiIconButton
+    euiOutline
     class="eui-u-mr-s eui-u-mb-s"
-    [euiSecondary]="true"
+    euiSecondary
   >
     <span
       euiIcon
@@ -400,11 +647,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiOutline]="true"
+    euiRounded
+    euiIconButton
+    euiOutline
     class="eui-u-mr-s eui-u-mb-s"
-    [euiInfo]="true"
+    euiInfo
   >
     <span
       euiIcon
@@ -414,11 +661,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiOutline]="true"
+    euiRounded
+    euiIconButton
+    euiOutline
     class="eui-u-mr-s eui-u-mb-s"
-    [euiSuccess]="true"
+    euiSuccess
   >
     <span
       euiIcon
@@ -428,11 +675,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiOutline]="true"
+    euiRounded
+    euiIconButton
+    euiOutline
     class="eui-u-mr-s eui-u-mb-s"
-    [euiWarning]="true"
+    euiWarning
   >
     <span
       euiIcon
@@ -442,11 +689,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiOutline]="true"
+    euiRounded
+    euiIconButton
+    euiOutline
     class="eui-u-mr-s eui-u-mb-s"
-    [euiDanger]="true"
+    euiDanger
   >
     <span
       euiIcon
@@ -456,11 +703,11 @@
   </button>
   <button
     euiButton
-    [euiRounded]="true"
-    [euiIconButton]="true"
-    [euiOutline]="true"
+    euiRounded
+    euiIconButton
+    euiOutline
     class="eui-u-mr-s eui-u-mb-s"
-    [euiAccent]="true"
+    euiAccent
   >
     <span
       euiIcon
@@ -469,47 +716,848 @@
     ></span>
   </button>
 </div>
+
+<h6 class="section-title eui-u-mt-m">Block button</h6>
 <p>
   Block buttons are displayed using the full width of their parent container
   using the <code>euiBlockButton</code> input option.
 </p>
 
 <h6 class="section-title eui-u-mt-m">Within the page body container</h6>
-<button
-  euiButton
-  [euiBlockButton]="true"
-  class="eui-u-mr-s eui-u-mb-s"
-  [euiPrimary]="true"
->
+<button euiButton euiBlockButton class="eui-u-mr-s eui-u-mb-s" euiPrimary>
   <span euiLabel>Primary</span>
 </button>
-<button
-  euiButton
-  [euiBlockButton]="true"
-  class="eui-u-mr-s eui-u-mb-s"
-  [euiSecondary]="true"
->
+<button euiButton euiBlockButton class="eui-u-mr-s eui-u-mb-s" euiSecondary>
   <span euiLabel>Secondary</span>
 </button>
 
 <h6 class="section-title">Within a 50% width responsive container</h6>
 <div class="row">
   <div class="col-md-6">
-    <button
-      euiButton
-      [euiBlockButton]="true"
-      class="eui-u-mr-s eui-u-mb-s"
-      [euiPrimary]="true"
-    >
+    <button euiButton euiBlockButton class="eui-u-mr-s eui-u-mb-s" euiPrimary>
       <span euiLabel>Primary</span>
     </button>
-    <button
-      euiButton
-      [euiBlockButton]="true"
-      class="eui-u-mr-s eui-u-mb-s"
-      [euiSecondary]="true"
-    >
+    <button euiButton euiBlockButton class="eui-u-mr-s eui-u-mb-s" euiSecondary>
       <span euiLabel>Secondary</span>
     </button>
   </div>
+</div>
+
+<h6 class="section-title">
+  Within a multi-columns responsive container using cards
+</h6>
+<div class="row">
+  <div class="col-xl-3 col-md-6 eui-u-mb-m">
+    <eui-card euiPrimary>
+      <eui-card-header>
+        <eui-card-header-title>Primary</eui-card-header-title>
+      </eui-card-header>
+      <eui-card-footer>
+        <eui-card-footer-action-buttons>
+          <button euiButton euiBlockButton euiPrimary>
+            <span euiLabel>Primary</span>
+          </button>
+        </eui-card-footer-action-buttons>
+      </eui-card-footer>
+    </eui-card>
+  </div>
+  <div class="col-xl-3 col-md-6 eui-u-mb-m">
+    <eui-card euiSecondary>
+      <eui-card-header>
+        <eui-card-header-title>Secondary</eui-card-header-title>
+      </eui-card-header>
+      <eui-card-footer>
+        <eui-card-footer-action-buttons>
+          <button euiButton euiBlockButton euiSecondary>
+            <span euiLabel>Secondary</span>
+          </button>
+        </eui-card-footer-action-buttons>
+      </eui-card-footer>
+    </eui-card>
+  </div>
+  <div class="col-xl-3 col-md-6 eui-u-mb-m">
+    <eui-card euiInfo>
+      <eui-card-header>
+        <eui-card-header-title>Info</eui-card-header-title>
+      </eui-card-header>
+      <eui-card-footer>
+        <eui-card-footer-action-buttons>
+          <button euiButton euiBlockButton euiInfo>
+            <span euiLabel>Info</span>
+          </button>
+        </eui-card-footer-action-buttons>
+      </eui-card-footer>
+    </eui-card>
+  </div>
+  <div class="col-xl-3 col-md-6 eui-u-mb-m">
+    <eui-card euiSuccess>
+      <eui-card-header>
+        <eui-card-header-title>Success</eui-card-header-title>
+      </eui-card-header>
+      <eui-card-footer>
+        <eui-card-footer-action-buttons>
+          <button euiButton euiBlockButton euiSuccess>
+            <span euiLabel>Success</span>
+          </button>
+        </eui-card-footer-action-buttons>
+      </eui-card-footer>
+    </eui-card>
+  </div>
+  <div class="col-xl-3 col-md-6 eui-u-mb-m">
+    <eui-card euiWarning>
+      <eui-card-header>
+        <eui-card-header-title>Warning</eui-card-header-title>
+      </eui-card-header>
+      <eui-card-footer>
+        <eui-card-footer-action-buttons>
+          <button euiButton euiBlockButton euiWarning>
+            <span euiLabel>Warning</span>
+          </button>
+        </eui-card-footer-action-buttons>
+      </eui-card-footer>
+    </eui-card>
+  </div>
+  <div class="col-xl-3 col-md-6 eui-u-mb-m">
+    <eui-card euiDanger>
+      <eui-card-header>
+        <eui-card-header-title>Danger</eui-card-header-title>
+      </eui-card-header>
+      <eui-card-footer>
+        <eui-card-footer-action-buttons>
+          <button euiButton euiBlockButton euiDanger>
+            <span euiLabel>Danger</span>
+          </button>
+        </eui-card-footer-action-buttons>
+      </eui-card-footer>
+    </eui-card>
+  </div>
+  <div class="col-xl-3 col-md-6 eui-u-mb-m">
+    <eui-card euiAccent>
+      <eui-card-header>
+        <eui-card-header-title>Accent</eui-card-header-title>
+      </eui-card-header>
+      <eui-card-footer>
+        <eui-card-footer-action-buttons>
+          <button euiButton euiBlockButton euiAccent>
+            <span euiLabel>Accent</span>
+          </button>
+        </eui-card-footer-action-buttons>
+      </eui-card-footer>
+    </eui-card>
+  </div>
+</div>
+
+<h6 class="section-title eui-u-mt-m">Disabled</h6>
+<p>
+  Disabled buttons are displayed using the <code>euiDisabled</code> input option
+  which are not accessible.
+</p>
+
+<h6 class="section-title eui-u-mt-m">Default disabled buttons</h6>
+<p>Using combined <code>euiButton euiDisabled</code> input options</p>
+
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+  <button euiButton euiDisabled class="eui-u-mr-s eui-u-mb-s">Default</button>
+  <button euiButton euiDisabled class="eui-u-mr-s eui-u-mb-s" euiPrimary>
+    Primary
+  </button>
+  <button euiButton euiDisabled class="eui-u-mr-s eui-u-mb-s" euiSecondary>
+    Secondary
+  </button>
+  <button euiButton euiDisabled class="eui-u-mr-s eui-u-mb-s" euiInfo>
+    Info
+  </button>
+  <button euiButton euiDisabled class="eui-u-mr-s eui-u-mb-s" euiSuccess>
+    Success
+  </button>
+  <button euiButton euiDisabled class="eui-u-mr-s eui-u-mb-s" euiWarning>
+    Warning
+  </button>
+  <button euiButton euiDisabled class="eui-u-mr-s eui-u-mb-s" euiDanger>
+    Danger
+  </button>
+  <button euiButton euiDisabled class="eui-u-mr-s eui-u-mb-s" euiAccent>
+    Accent
+  </button>
+</div>
+
+<h6 class="section-title">Outlined disabled buttons</h6>
+<p>
+  Using combined
+  <code>euiButton euiBasicButton euiOutline euiDisabled</code> input options
+</p>
+
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+  <button
+    euiButton
+    euiBasicButton
+    euiOutline
+    euiDisabled
+    class="eui-u-mr-s eui-u-mb-s"
+  >
+    Default
+  </button>
+  <button
+    euiButton
+    euiBasicButton
+    euiOutline
+    euiDisabled
+    class="eui-u-mr-s eui-u-mb-s"
+    euiPrimary
+  >
+    Primary
+  </button>
+  <button
+    euiButton
+    euiBasicButton
+    euiOutline
+    euiDisabled
+    class="eui-u-mr-s eui-u-mb-s"
+    euiSecondary
+  >
+    Secondary
+  </button>
+  <button
+    euiButton
+    euiBasicButton
+    euiOutline
+    euiDisabled
+    class="eui-u-mr-s eui-u-mb-s"
+    euiInfo
+  >
+    Info
+  </button>
+  <button
+    euiButton
+    euiBasicButton
+    euiOutline
+    euiDisabled
+    class="eui-u-mr-s eui-u-mb-s"
+    euiSuccess
+  >
+    Success
+  </button>
+  <button
+    euiButton
+    euiBasicButton
+    euiOutline
+    euiDisabled
+    class="eui-u-mr-s eui-u-mb-s"
+    euiWarning
+  >
+    Warning
+  </button>
+  <button
+    euiButton
+    euiBasicButton
+    euiOutline
+    euiDisabled
+    class="eui-u-mr-s eui-u-mb-s"
+    euiDanger
+  >
+    Danger
+  </button>
+  <button
+    euiButton
+    euiBasicButton
+    euiOutline
+    euiDisabled
+    class="eui-u-mr-s eui-u-mb-s"
+    euiAccent
+  >
+    Accent
+  </button>
+</div>
+
+<h6 class="section-title eui-u-mt-m">isLoading</h6>
+<p>
+  Action buttons with a loading state visual is used in some cases to improve
+  better user experience when an action takes too long time to complete. Use the
+  <code>isLoading</code> input option with <code>true</code> |
+  <code>false</code> value to enable/disable it.
+</p>
+
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+  <button euiButton [isLoading]="isLoading" class="eui-u-mr-s eui-u-mb-s">
+    Default
+  </button>
+  <button
+    euiButton
+    [isLoading]="isLoading"
+    class="eui-u-mr-s eui-u-mb-s"
+    euiPrimary
+  >
+    Primary
+  </button>
+  <button
+    euiButton
+    [isLoading]="isLoading"
+    class="eui-u-mr-s eui-u-mb-s"
+    euiSecondary
+  >
+    Secondary
+  </button>
+  <button
+    euiButton
+    [isLoading]="isLoading"
+    class="eui-u-mr-s eui-u-mb-s"
+    euiInfo
+  >
+    Info
+  </button>
+  <button
+    euiButton
+    [isLoading]="isLoading"
+    class="eui-u-mr-s eui-u-mb-s"
+    euiSuccess
+  >
+    Success
+  </button>
+  <button
+    euiButton
+    [isLoading]="isLoading"
+    class="eui-u-mr-s eui-u-mb-s"
+    euiWarning
+  >
+    Warning
+  </button>
+  <button
+    euiButton
+    [isLoading]="isLoading"
+    class="eui-u-mr-s eui-u-mb-s"
+    euiDanger
+  >
+    Danger
+  </button>
+  <button
+    euiButton
+    [isLoading]="isLoading"
+    class="eui-u-mr-s eui-u-mb-s"
+    euiAccent
+  >
+    Accent
+  </button>
+</div>
+
+<br />
+<button euiButton euiPrimary euiOutline (click)="toggleLoading()">
+  Toggle loading state
+</button>
+
+<h6 class="section-title eui-u-mt-m">Sizes</h6>
+<p>
+  eUI buttons are available in 3 different sizes : S(mall), M(edium) and L(arge)
+  by using one of the following semantic input option :
+</p>
+<code>euiSizeS</code> | <code>euiSizeM</code> | <code>euiSizeL</code>
+
+<h6 class="section-title eui-u-mt-m">Semantic sizes</h6>
+<button euiButton euiSizeS>euiSizeS</button>&nbsp;
+<button euiButton euiSizeM>euiSizeM (default)</button>&nbsp;
+<button euiButton euiSizeL>euiSizeL</button>&nbsp;
+
+<h6 class="section-title">Explicit size using euiSizeVariant input option</h6>
+<button euiButton euiSizeVariant="s">euiSizeVariant="s"</button>&nbsp;
+<button euiButton euiSizeVariant="m">euiSizeVariant="m" (default)</button>&nbsp;
+<button euiButton euiSizeVariant="l">euiSizeVariant="l"</button>&nbsp;
+
+<h6 class="section-title">Buttons have proportional minimum sizes</h6>
+<button euiButton euiPrimary>E</button>&nbsp;
+<button euiButton euiPrimary>U</button>&nbsp;
+<button euiButton euiPrimary>I</button>&nbsp;
+<button euiButton euiPrimary>is</button>&nbsp;
+<button euiButton euiPrimary>awesome</button>&nbsp;
+
+<h6 class="section-title">Buttons with icon's sizes</h6>
+<div class="row">
+  <div class="col-md-6">
+    <eui-card>
+      <eui-card-header>
+        <eui-card-header-title>Using eUI webfont icons</eui-card-header-title>
+      </eui-card-header>
+      <eui-card-content>
+        euiSizeS<br />
+        <button euiButton euiIconButton euiPrimary euiSizeS>
+          <span
+            euiIcon
+            iconClass="eui-icon eui-icon-bell"
+            aria-label="Bell Icon"
+          ></span>
+        </button>
+        <br /><br />
+
+        euiSizeM (default)<br />
+        <button euiButton euiIconButton euiPrimary euiSizeM>
+          <span
+            euiIcon
+            iconClass="eui-icon eui-icon-bell"
+            aria-label="Bell Icon"
+          ></span>
+        </button>
+        <br /><br />
+
+        euiSizeL<br />
+        <button euiButton euiIconButton euiPrimary euiSizeL>
+          <span
+            euiIcon
+            iconClass="eui-icon eui-icon-bell"
+            aria-label="Bell Icon"
+          ></span>
+        </button>
+      </eui-card-content>
+    </eui-card>
+  </div>
+  <div class="col-md-6">
+    <eui-card>
+      <eui-card-header>
+        <eui-card-header-title>Using eUI SVG icons</eui-card-header-title>
+      </eui-card-header>
+      <eui-card-content>
+        euiSizeS<br />
+        <button euiButton euiIconButton euiPrimary euiSizeS>
+          <eui-icon-svg
+            icon="notifications"
+            set="default"
+            size="s"
+            fillColor="white"
+          ></eui-icon-svg>
+        </button>
+        <br /><br />
+
+        euiSizeM (default)<br />
+        <button euiButton euiIconButton euiPrimary euiSizeM>
+          <eui-icon-svg
+            icon="notifications"
+            set="default"
+            size="m"
+            fillColor="white"
+          ></eui-icon-svg>
+        </button>
+        <br /><br />
+
+        euiSizeL<br />
+        <button euiButton euiIconButton euiPrimary euiSizeL>
+          <eui-icon-svg
+            icon="notifications"
+            set="default"
+            size="l"
+            fillColor="white"
+          ></eui-icon-svg>
+        </button>
+      </eui-card-content>
+    </eui-card>
+  </div>
+</div>
+
+<h6 class="section-title eui-u-mt-m">Types</h6>
+<h6 class="section-title eui-u-mt-m">Types: button, reset, submit</h6>
+
+<button euiButton euiPrimary type="button">Button</button>&nbsp;
+<button euiButton euiSecondary type="reset">Reset</button>&nbsp;
+<button euiButton euiPrimary type="submit">Submit</button>&nbsp;
+
+<h6 class="section-title eui-u-mt-m">Multiple lines label</h6>
+<p>
+  Using the <code>euiLineWrap</code> input option allow to line wrap the
+  button's label on multiple lines based on the width of the parent container.
+</p>
+
+<h6 class="section-title eui-u-mt-m">
+  Line wrap using defined <code>eui-u-width-%</code> utility classes
+</h6>
+
+<button euiButton euiLineWrap class="eui-u-width-8">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit</button
+>&nbsp;
+<button euiButton euiLineWrap euiPrimary class="eui-u-width-12">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit</button
+>&nbsp;
+<button euiButton euiLineWrap euiSecondary class="eui-u-width-10">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit</button
+>&nbsp;
+
+<h6 class="section-title">Line wrap using Responsive layout</h6>
+<div class="row">
+  <div class="col-lg-3 col-md-4 eui-u-mb-m">
+    <button euiButton euiLineWrap euiBlockButton euiOutline euiPrimary>
+      Lorem ipsum dolor sit amet
+    </button>
+  </div>
+  <div class="col-lg-3 col-md-4 eui-u-mb-m">
+    <button euiButton euiLineWrap euiBlockButton euiOutline euiPrimary>
+      Lorem ipsum dolor
+    </button>
+  </div>
+  <div class="col-lg-3 col-md-4 eui-u-mb-m">
+    <button euiButton euiLineWrap euiBlockButton euiOutline euiPrimary>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    </button>
+  </div>
+  <div class="col-lg-3 col-md-4 eui-u-mb-m">
+    <button euiButton euiLineWrap euiBlockButton euiOutline euiPrimary>
+      Lorem ipsum dolor sit amet, consectetur
+    </button>
+  </div>
+  <div class="col-lg-3 col-md-4 eui-u-mb-m">
+    <button euiButton euiLineWrap euiBlockButton euiOutline euiPrimary>
+      Lorem ipsum dolor sit
+    </button>
+  </div>
+  <div class="col-lg-3 col-md-4 eui-u-mb-m">
+    <button euiButton euiLineWrap euiBlockButton euiOutline euiPrimary>
+      Lorem ipsum dolor sit amet, consectetur adipisicing
+    </button>
+  </div>
+  <div class="col-lg-3 col-md-4 eui-u-mb-m">
+    <button euiButton euiLineWrap euiBlockButton euiOutline euiPrimary>
+      Lorem ipsum
+    </button>
+  </div>
+  <div class="col-lg-3 col-md-4 eui-u-mb-m">
+    <button euiButton euiLineWrap euiBlockButton euiOutline euiPrimary>
+      Lorem ipsum dolor sit amet
+    </button>
+  </div>
+</div>
+
+<h6 class="section-title eui-u-mt-m">Misc options & compositions</h6>
+<h6 class="section-title eui-u-mt-m">Within a Flexbox wrapped container</h6>
+<div class="eui-u-flex eui-u-flex-wrap">
+    <ng-container *ngFor="let letter of alphabet">
+        <button euiButton euiOutline euiAccent class="eui-u-mr-s eui-u-mb-s">{{ letter }}</button>
+    </ng-container>
+</div>
+
+
+<h6 class="section-title">Responsive buttons within responsive layout</h6>
+<p>Using the <code>euiResponsive</code> input option sets the button width based on the width of its parent container.
+    When the button's label is too big, an ellipsis is applied which automatically "truncates" the label display.
+    Be sure to enhance user experience by adding an <code>euiTooltip</code> displaying the full label as shown in the following examples.</p>
+
+<div class="row eui-u-mt-m">
+    <div class="col-lg-3 col-md-4 eui-u-mb-s">
+        <button euiButton euiResponsive euiOutline euiTooltip="Lorem ipsum dolor sit amet">
+            <span euiLabel>Lorem ipsum dolor sit amet</span>
+        </button>
+    </div>
+    <div class="col-lg-3 col-md-4 eui-u-mb-s">
+        <button euiButton euiResponsive euiOutline euiTooltip="Lorem ipsum dolor">
+            <span euiLabel>Lorem ipsum dolor</span>
+        </button>
+    </div>
+    <div class="col-lg-3 col-md-4 eui-u-mb-s">
+        <button euiButton euiResponsive euiOutline euiTooltip="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+            <span euiIcon iconClass="eui-icon eui-icon-home"></span>
+            <span euiLabel>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+        </button>
+    </div>
+    <div class="col-lg-3 col-md-4 eui-u-mb-s">
+        <button euiButton euiResponsive euiOutline euiTooltip="Lorem ipsum dolor sit amet, consecteturt">
+            <span euiLabel>Lorem ipsum dolor sit amet, consecteturt</span>
+        </button>
+    </div>
+    <div class="col-lg-3 col-md-4 eui-u-mb-s">
+        <button euiButton euiResponsive euiOutline euiTooltip="Lorem ipsum dolor sit">
+            <span euiLabel>Lorem ipsum dolor sit</span>
+        </button>
+    </div>
+    <div class="col-lg-3 col-md-4 eui-u-mb-s">
+        <button euiButton euiResponsive euiOutline euiTooltip="Lorem ipsum dolor sit amet, consectetur adipisicing">
+            <span euiLabel>Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+        </button>
+    </div>
+    <div class="col-lg-3 col-md-4 eui-u-mb-s">
+        <button euiButton euiResponsive euiOutline euiTooltip="Lorem ipsum">
+            <span euiLabel>Lorem ipsum</span>
+        </button>
+    </div>
+    <div class="col-lg-3 col-md-4 eui-u-mb-s">
+        <button euiButton euiResponsive euiOutline euiTooltip="Lorem ipsum dolor sit amet">
+            <span euiLabel>Lorem ipsum dolor sit amet</span>
+        </button>
+    </div>
+    <div class="col eui-u-mb-s">
+        <button euiButton euiResponsive euiOutline euiTooltip="Maecenas at dui nec enim accumsan hendrerit eu et sapienp praesent posuere tellus feugiat suscipit consectetur">
+            <span euiIcon iconClass="eui-icon eui-icon-home"></span>
+            <span euiLabel>Maecenas at dui nec enim accumsan hendrerit eu et sapienp praesent posuere tellus feugiat suscipit consectetur</span>
+        </button>
+    </div>
+</div>
+
+
+<h6 class="section-title">Action buttons with icon after</h6>
+
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+    <button euiButton class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Default</span>
+        <span euiIcon iconClass="eui-icon eui-icon-angle-right"></span>
+    </button>
+    <button euiButton euiPrimary class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Primary</span>
+        <span euiIcon iconClass="eui-icon eui-icon-angle-right"></span>
+    </button>
+    <button euiButton euiSecondary class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Secondary</span>
+        <span euiIcon iconClass="eui-icon eui-icon-angle-right"></span>
+    </button>
+    <button euiButton euiInfo class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Info</span>
+        <span euiIcon iconClass="eui-icon eui-icon-angle-right"></span>
+    </button>
+    <button euiButton euiSuccess class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Success</span>
+        <span euiIcon iconClass="eui-icon eui-icon-angle-right"></span>
+    </button>
+    <button euiButton euiWarning class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Warning</span>
+        <span euiIcon iconClass="eui-icon eui-icon-angle-right"></span>
+    </button>
+    <button euiButton euiDanger class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Danger</span>
+        <span euiIcon iconClass="eui-icon eui-icon-angle-right"></span>
+    </button>
+    <button euiButton euiAccent class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Accent</span>
+        <span euiIcon iconClass="eui-icon eui-icon-angle-right"></span>
+    </button>
+</div>
+
+
+<h6 class="section-title">Action buttons with icon before</h6>
+
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+    <button euiButton class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-list"></span>
+        <span euiLabel>Default</span>
+    </button>
+    <button euiButton euiPrimary class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-pencil"></span>
+        <span euiLabel>Primary</span>
+    </button>
+    <button euiButton euiSecondary class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-visibility"></span>
+        <span euiLabel>Secondary</span>
+    </button>
+    <button euiButton euiInfo class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-info-circle"></span>
+        <span euiLabel>Info</span>
+    </button>
+    <button euiButton euiSuccess class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-check"></span>
+        <span euiLabel>Success</span>
+    </button>
+    <button euiButton euiWarning class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-exclamation-triangle"></span>
+        <span euiLabel>Warning</span>
+    </button>
+    <button euiButton euiDanger class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-delete"></span>
+        <span euiLabel>Danger</span>
+    </button>
+    <button euiButton euiAccent class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-e-help"></span>
+        <span euiLabel>Accent</span>
+    </button>
+</div>
+
+
+<h6 class="section-title">With icon before and after</h6>
+<div>Please note that these examples are for <strong>compositions purposes demo only!</strong> It is <u>not recommended</u> to have more than one icon within a button.</div>
+
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+    <button euiButton class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-left"></span>
+        <span euiLabel>Default</span>
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-right"></span>
+    </button>
+    <button euiButton euiPrimary class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-left"></span>
+        <span euiLabel>Primary</span>
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-right"></span>
+    </button>
+    <button euiButton euiSecondary class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-left"></span>
+        <span euiLabel>Secondary</span>
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-right"></span>
+    </button>
+    <button euiButton euiInfo class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-left"></span>
+        <span euiLabel>Info</span>
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-right"></span>
+    </button>
+    <button euiButton euiSuccess class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-left"></span>
+        <span euiLabel>Success</span>
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-right"></span>
+    </button>
+    <button euiButton euiWarning class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-left"></span>
+        <span euiLabel>Warning</span>
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-right"></span>
+    </button>
+    <button euiButton euiDanger class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-left"></span>
+        <span euiLabel>Danger</span>
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-right"></span>
+    </button>
+    <button euiButton euiAccent class="eui-u-mr-s eui-u-mb-s">
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-left"></span>
+        <span euiLabel>Accent</span>
+        <span euiIcon iconClass="eui-icon eui-icon-arrow-right"></span>
+    </button>
+</div>
+
+
+<h6 class="section-title">Buttons with badges</h6>
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+    <button euiButton [euiBasicButton]="isBasicButton" [euiOutline]="isOutlinedButton" class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Default</span>
+        <span euiBadge>9</span>
+    </button>
+    <button euiButton [euiBasicButton]="isBasicButton" [euiOutline]="isOutlinedButton" euiPrimary class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Primary</span>
+        <span euiBadge>9</span>
+    </button>
+    <button euiButton [euiBasicButton]="isBasicButton" [euiOutline]="isOutlinedButton" euiSecondary class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Secondary</span>
+        <span euiBadge>9</span>
+    </button>
+    <button euiButton [euiBasicButton]="isBasicButton" [euiOutline]="isOutlinedButton" euiInfo class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Info</span>
+        <span euiBadge>9</span>
+    </button>
+    <button euiButton [euiBasicButton]="isBasicButton" [euiOutline]="isOutlinedButton" euiSuccess class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Success</span>
+        <span euiBadge>9</span>
+    </button>
+    <button euiButton [euiBasicButton]="isBasicButton" [euiOutline]="isOutlinedButton" euiWarning class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Warning</span>
+        <span euiBadge>9</span>
+    </button>
+    <button euiButton [euiBasicButton]="isBasicButton" [euiOutline]="isOutlinedButton" euiDanger class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Danger</span>
+        <span euiBadge>9</span>
+    </button>
+    <button euiButton [euiBasicButton]="isBasicButton" [euiOutline]="isOutlinedButton" euiAccent class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Accent</span>
+        <span euiBadge>9</span>
+    </button>
+</div>
+
+<br>
+<button euiButton euiPrimary euiOutline class="eui-u-mr-s eui-u-mb-s" euiSizeS (click)="onDefaultButton()">Default buttons</button>
+<button euiButton euiPrimary euiOutline class="eui-u-mr-s eui-u-mb-s" euiSizeS (click)="onBasicButton()">Basic buttons</button>
+<button euiButton euiPrimary euiOutline class="eui-u-mr-s eui-u-mb-s" euiSizeS (click)="onOutlineButton()">Outlined buttons</button>
+
+
+<h6 class="section-title">Used as an expand/collapse toggler</h6>
+<p>Use a wrapper container with the <code>eui-button__expand-trigger</code> style class. See the code source for usage samples code.</p>
+<br>
+
+<div *ngIf="!isCollapsed" class="eui-u-mt-m">
+    Showing some expandable content...
+</div>
+<div class="eui-button__expand-trigger" (click)="onToggle($event)">
+    <button euiButton euiIconButton *ngIf="isCollapsed" class="eui-button eui-button--expand-toggle" euiTooltip="Expand"><eui-icon iconClass="eui-icon-angle-down"></eui-icon></button>
+    <button euiButton euiIconButton *ngIf="!isCollapsed" class="eui-button eui-button--expand-toggle" euiTooltip="Collapse"><eui-icon iconClass="eui-icon-angle-up"></eui-icon></button>
+</div>
+
+
+
+<h6 class="section-title">Toggler with custom euiLabel & euiIcon</h6>
+
+<div *ngIf="!isCollapsed2">
+    Showing some expandable content...
+</div>
+<div class="eui-button__expand-trigger" (click)="onToggle2($event)">
+    <button *ngIf="isCollapsed2" class="eui-button eui-button--expand-toggle">
+        <span euiLabel>expand</span>
+        <eui-icon iconClass="eui-icon-angle-down"></eui-icon>
+    </button>
+    <button *ngIf="!isCollapsed2" class="eui-button eui-button--expand-toggle">
+        <span euiLabel>collapse</span>
+        <eui-icon iconClass="eui-icon-angle-up"></eui-icon>
+    </button>
+</div>
+
+<br>
+
+<div *ngIf="!isCollapsed3">
+    Showing some expandable content...
+</div>
+<div class="eui-button__expand-trigger" (click)="onToggle3($event)">
+    <button *ngIf="isCollapsed3" class="eui-button eui-button--expand-toggle">
+        <eui-icon iconClass="eui-icon-caret-down"></eui-icon>
+        <span euiLabel>expand</span>
+    </button>
+    <button *ngIf="!isCollapsed3" class="eui-button eui-button--expand-toggle">
+        <eui-icon iconClass="eui-icon-caret-up"></eui-icon>
+        <span euiLabel>collapse</span>
+    </button>
+</div>
+
+
+<h6 class="section-title">Button link</h6>
+<p>As a backward compatible feature, you can also style a text anchor link like a button by using the following classes :</p>
+<ul>
+    <li>- for internal links: <code>class="eui-button eui-u-text-link"</code></li>
+    <li>- for external links: <code>class="eui-button eui-u-text-link-external"</code></li>
+</ul>
+<br><br>
+
+<a class="eui-button eui-u-text-link" routerLink="./#composition">Link button</a>
+<br><br>
+<a class="eui-button eui-u-text-link-external" href="https://google.com" target="_blank">External link button</a>
+
+
+<h6 class="section-title">Using eUI SVG icons</h6>
+<div class="eui-u-flex eui-u-flex-wrap eui-u-mt-m">
+    <button euiButton class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Default</span>
+        <eui-icon-svg icon="chevron-forward" class="eui-u-ml-2xs"></eui-icon-svg>
+    </button>
+    <button euiButton euiPrimary class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>Primary</span>
+        <eui-icon-svg icon="chevron-forward" fillColor="white" class="eui-u-ml-2xs"></eui-icon-svg>
+    </button>
+    <button euiButton euiSecondary class="eui-u-mr-s eui-u-mb-s">
+        <eui-icon-svg icon="list" fillColor="black" class="eui-u-mr-2xs"></eui-icon-svg>
+        <span euiLabel>View list</span>
+    </button>
+    <button euiButton class="eui-u-mr-s eui-u-mb-s">
+        <eui-icon-svg icon="chevron-back" set="default" fillColor="grey-100" class="eui-u-mr-2xs"></eui-icon-svg>
+        <span euiLabel>Back</span>
+    </button>
+    <button euiButton euiPrimary class="eui-u-mr-s eui-u-mb-s">
+        <eui-icon-svg icon="pencil" set="default" fillColor="white" class="eui-u-mr-2xs"></eui-icon-svg>
+        <span euiLabel>Edit</span>
+    </button>
+    <button euiButton euiSecondary class="eui-u-mr-s eui-u-mb-s">
+        <eui-icon-svg icon="eye" set="sharp" fillColor="grey-100" class="eui-u-mr-2xs"></eui-icon-svg>
+        <span euiLabel>View</span>
+    </button>
+    <button euiButton euiInfo class="eui-u-mr-s eui-u-mb-s">
+        <eui-icon-svg icon="information-circle" set="default" fillColor="white" class="eui-u-mr-2xs"></eui-icon-svg>
+        <span euiLabel>Info</span>
+    </button>
+    <button euiButton euiSuccess class="eui-u-mr-s eui-u-mb-s">
+        <eui-icon-svg icon="checkmark" set="default" fillColor="white" class="eui-u-mr-2xs"></eui-icon-svg>
+        <span euiLabel>Ok</span>
+    </button>
+    <button euiButton euiSecondary class="eui-u-mr-s eui-u-mb-s">
+        <eui-icon-svg icon="close" set="default" fillColor="grey-100" class="eui-u-mr-2xs"></eui-icon-svg>
+        <span euiLabel>Cancel</span>
+    </button>
+    <button euiButton euiWarning class="eui-u-mr-s eui-u-mb-s">
+        <eui-icon-svg icon="thumbs-up" set="outline" fillColor="grey-100" class="eui-u-mr-2xs"></eui-icon-svg>
+        <span euiLabel>Warning</span>
+    </button>
+    <button euiButton euiDanger class="eui-u-mr-s eui-u-mb-s">
+        <eui-icon-svg icon="trash" set="sharp" fillColor="white" class="eui-u-mr-2xs"></eui-icon-svg>
+        <span euiLabel>Delete</span>
+    </button>
+    <button euiButton euiAccent class="eui-u-mr-s eui-u-mb-s">
+        <span euiLabel>More</span>
+        <eui-icon-svg icon="ellipsis-horizontal" set="default" fillColor="grey-100" class="eui-u-ml-2xs"></eui-icon-svg>
+    </button>
 </div>

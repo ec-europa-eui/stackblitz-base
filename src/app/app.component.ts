@@ -1,31 +1,17 @@
-import { HttpClient } from '@angular/common/http';
-import {
-  AfterViewInit,
-  ChangeDetectorRef,
-  Component,
-  ElementRef,
-  OnInit,
-  VERSION,
-  ViewChild,
-} from '@angular/core';
+import { ChangeDetectorRef, Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent implements AfterViewInit {
+export class AppComponent {
   title = 'CodeSandbox';
   isLoading = true;
   @ViewChild('test', { static: false, read: HTMLDivElement })
   test: HTMLDivElement;
 
-  constructor(private cd: ChangeDetectorRef, private http: HttpClient) {}
-
-  ngAfterViewInit(): void {
-    console.log(this.test);
-    this.http.get('i18n-eui/en.json').subscribe((d) => console.log(d));
-  }
+  constructor(private cd: ChangeDetectorRef) {}
 
   toggleLoading() {
     console.log('toggleLoading');
